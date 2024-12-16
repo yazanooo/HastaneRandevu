@@ -1,0 +1,240 @@
+* {
+    padding: 0;
+    margin: 0;
+
+}
+ /* Navbar start ......................................................*/
+.Navbar {
+    background-color: rgba(16, 115, 196, 0);
+    display: flex;
+    justify-content: space-between;
+}
+
+.NavItimes {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 15px;
+    
+}
+
+.NavItimes li{
+    margin-right: 20px;
+    padding: 20px;
+    text-decoration: none;
+    color:#000000; /* لون النص الأساسي */
+}
+.NavItimes a{
+    color:#000000; /* لون النص الأساسي */
+    text-decoration: none; /* إزالة التسطير تحت النص */
+ }
+.NavItimes li:hover, .NavItimes li a:hover {
+   /* color: rgb(50, 197, 197); /* لون النص عند التحويل إلى الأحمر */  
+   color: hwb(191 33% 8%);
+}
+
+.LogoImg {
+    border-radius: 50%;
+    height: 100px;
+    width: auto;
+}
+ /* Navbar END */
+
+
+
+ /*  video  stert */
+video {
+    width: 100%;
+    object-fit: cover; /* Videonun en-boy oranını korurken konteyneri kapladığından emin olun */ 
+}
+
+/*  video end */ 
+
+
+
+ /*InfoContainer Start*/
+.InfoContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+.paragraf1, .paragraf2 {
+    background-color: white;
+    border-radius: 8px;
+         /*box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);*/   /* يقوم بوضع اطار يحتوي الاشياء التي تريدها */
+    margin: 20px;
+    padding: 0px;
+    width: 80%;
+    /*max-width: 1000px;*/
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    margin-top: 0;   /* انزالهم الى الاسفل قليلا */ 
+}
+.paragraf2{
+    box-shadow: 0 11px 4px rgba(0, 0, 0, 0.1);
+}
+.InfoContainer h3 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 15px;
+}
+.InfoContainer p {
+    font-size: 1rem;
+    color: #666;
+    line-height: 1.6; /* تباعد ما بين الاسطر من تحت  */
+    margin-bottom: 15px;
+    white-space: pre-line;
+}
+.Img1, .Img2 {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 8px;   /* حواف على الصور من الزوايا */ 
+    margin: 20px 2px;
+}
+
+ /* Navbar finesh ......................................................*/
+
+
+
+/* SERVICES start *//*...............................................................*/
+
+
+.SERVICES {
+    padding: 50px;
+    text-align: center;
+    margin-top: 50px;  /* Üst marjı 50 piksel olarak ayarlar */
+    box-shadow: 0 11px 4px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+.header h3 {
+    font-size: 14px;
+    color: #7A7A7A;
+    font-weight: normal;
+    margin-bottom: 10px;
+    letter-spacing: 3px; /* Harfler arasındaki boşluğu 3 piksel olarak ayarlar */
+}
+.header h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.header p {
+    color: #7A7A7A;
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+.services {
+    display: flex;  /*  تقوم بوضضع الصور يجانب بعض  */ 
+    justify-content: center;
+    gap: 250px;   /* التباعد ما بينهم */ 
+    margin-top: 50px;   /* انزالهم الى الاسفل قليلا */ 
+}
+
+.serviceitem {
+    text-align: center;
+    max-width: 200px;
+}
+
+.serviceitem img {
+    width: 80px;
+    height: auto;
+    margin-bottom: 10px; /* Alt marjı 10 piksel olarak ayarlar */
+   
+}
+
+.serviceitem h4 {
+    font-size: 18px;
+    color: #4A4A4A;
+    
+}
+/* SERVICES fenish...................................................... */
+
+
+/* locationsmap  start */ 
+.locationsmap{
+    font-size: 14px;
+    color: #7A7A7A;
+    font-weight: normal;
+    margin-bottom: 10px;
+    letter-spacing: 3px;  /* تعديل لإضافة التباعد بين الأحرف */
+    margin-top: 70px ;    /* انزالهم الى الاسفل قليلا */ 
+
+    
+     
+}
+.locationsmap h3{
+    margin-left: 50px;     /* تعديل لإزاحة العنصر قليلاً إلى اليمين */ 
+}
+.locationsmap h4{
+    margin-left: 60px;     /* تعديل لإزاحة العنصر قليلاً إلى اليمين */ 
+    color:  #333;
+    font-size: 30px;
+    margin-top: 20px ; 
+}
+
+.locationsmap iframe {
+    width: 95%; /* تعديل العرض ليتناسب  */
+    height: 300px; /* تعديل الارتفاع */
+    border: 0; /* إزالة الحدود */
+    margin-top: 20px; /* مسافة من الأعلى */
+    margin-left: auto; /* محاذاة تلقائية من اليسار */
+    margin-right: auto; /* محاذاة تلقائية من اليمين */
+    display: block;
+}
+
+
+/*end start .......................................................*/
+.end{
+    margin-top: 80px; 
+    display: flex;
+    justify-content: space-around; /* لضبط المسافات بين العناصر */
+    padding: 50px;
+    background-color: #ffffff; /* لون الخلفية للجزء */
+    border: 2px solid rgba(0, 0, 8, 0.08);
+    
+}
+.Services, .Follow {
+    text-align: center;
+  }
+
+  .Services h3, .Follow h3 {
+    margin-bottom: 20px;
+  }
+
+  .Services p {
+    margin: 4px 0;
+  }
+
+  .Follow img {
+    width: 40px;
+    height: 40px;
+    margin: -1px -1px;
+    background-color: white; /* تغيير خلفية الأيقونات إلى اللون الأبيض */
+    padding: 5px;
+    border-radius: 50%; /* لجعل الخلفية دائرية */
+    
+  }
+  .Follow {
+    
+    flex-direction: column;
+    align-items: center;
+  }
+  .Follow h3 {
+    margin-bottom: 11px;
+  }
+  
+  .Follow img {
+    margin-top: -9px;
+    gap: 100%; /* تقليل المسافة بين الأيقونات */
+  }
+
+/*end fenish........................................ */

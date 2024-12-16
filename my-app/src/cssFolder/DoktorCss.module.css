@@ -1,0 +1,134 @@
+/* Global Styles */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Navbar Styles */
+.Navbar {
+    background-color: rgba(16, 115, 196, 0);
+    display: flex;
+    justify-content: space-between;
+}
+
+.NavItimes {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 15px;
+    
+}
+
+.NavItimes li{
+    margin-right: 20px;
+    padding: 20px;
+    text-decoration: none;
+    color:#000000; /* لون النص الأساسي */
+}
+.NavItimes a{
+    color:#000000; /* لون النص الأساسي */
+    text-decoration: none; /* إزالة التسطير تحت النص */
+ }
+.NavItimes li:hover, .NavItimes li a:hover {
+   /* color: rgb(50, 197, 197); /* لون النص عند التحويل إلى الأحمر */  
+   color: hwb(191 33% 8%);
+}
+
+.LogoImg {
+    border-radius: 50%;
+    height: 100px;
+    width: auto;
+}
+/* Doctors Section */
+.DOKTORLAR {
+    padding: 3rem 2rem 2rem;
+    text-align: center;
+    background-color: rgb(105, 147, 161);
+    width: 100vw; /* عرض كامل الشاشة */
+}
+.STEERINGCOMMITTEE {
+    display: flex;
+    justify-content: center;
+}
+.STEERINGCOMMITTEE h4,
+.STEERINGCOMMITTEE h3 {
+    font-size: 24px;
+    margin: 0 3px;
+}
+.STEERINGCOMMITTEE h3 {
+    color: rgb(211, 75, 75);
+}
+.doktorlar,
+.doktorlarAsaga {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+.birincisatirdok,
+.ikincisatirdok {
+    padding: 1rem;
+}
+.birincisatirdok img,
+.ikincisatirdok img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid rgb(34, 211, 196);
+    margin-top: 30px;
+}
+h4 {
+    margin: 0.5rem 0;
+}
+.birincisatirdok h5,
+.ikincisatirdok h5 {
+    background-color: rgb(70, 171, 163);
+    display: inline-block;
+    padding: 5px;
+    color: white;
+}
+
+.birincisatirdok h5:hover,
+.ikincisatirdok h5:hover {
+    background-color: rgba(13, 112, 211, 0.604);
+}
+
+/* Read More Modal */
+.readMore {
+    position: fixed;
+    top: 0; 
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.7);
+    
+}
+
+.modalContent {
+    position: relative;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    z-index: 1001;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.readMore button {
+    height: 40px;
+    width: 80px;
+    margin-top: 20px;
+    background-color: #e76f51;
+
+}
+.readMore button:hover {
+    background-color: #d62828;
+}

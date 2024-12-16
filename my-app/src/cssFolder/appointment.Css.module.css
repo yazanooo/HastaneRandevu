@@ -1,0 +1,103 @@
+/* Navbar styling */
+.Navbar {
+    background-color:#53848777;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.NavItems {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.NavItems li {
+    margin-left: 20px;
+}
+
+.NavItems a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.NavItems a:hover {
+    color: #ffc107;
+}
+
+/* Logo styling */
+.LogoImg {
+    border-radius: 50%;
+    height: 60px;
+    width: auto;
+}
+
+/* Container styling */
+.container {
+    display: flex;
+    width: 100%;
+    height: 100vh; /* استخدام ارتفاع الشاشة بالكامل */
+    max-width: 1200px;
+    margin: 0 auto; /* إزالة المسافة العمودية */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden; /* لمنع تجاوز المحتوى */
+}
+/* Form container styling */
+.formContainer {
+    background-color: #268891;
+    color: #fff;
+    padding: 30px;
+    flex: 1.2;
+    display: flex;
+    flex-direction: column; /* لتنسيق المحتوى عمودياً */
+    justify-content: center; /* لمركزية المحتوى */
+}
+.formContainer h2 {
+    margin-top: 0;
+    font-size: 24px;
+}
+.formContainer p {
+    margin-top: 0;
+    font-size: 14px;
+    color: #e9c46a;
+}
+/* Input group styling */
+.inputGroup {
+    margin-bottom: 15px;
+}
+.inputGroup label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+    font-weight: bold;
+}
+.inputGroup input,
+.inputGroup textarea {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+}
+.inputGroup input[type="date"] {
+    display: block;
+    margin-top: 5px;
+}
+.basmak button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    color: #271212;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.basmak button:hover {
+    background-color: #d62828;
+}
+
